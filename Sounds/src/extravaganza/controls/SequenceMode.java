@@ -2,7 +2,9 @@ package extravaganza.controls;
 
 import extravaganza.led.LedController;
 import extravaganza.led.LedPattern;
+import extravaganza.led.pattern.RainbowPattern;
 import extravaganza.led.pattern.StripePattern;
+import extravaganza.led.pattern.ThrobbingPattern;
 
 public class SequenceMode implements Mode {
 	private static final int DELAY_INCREMENT_MS = 100;
@@ -14,9 +16,8 @@ public class SequenceMode implements Mode {
 	
 	private LedPattern[] patterns = new LedPattern[] {
 		new StripePattern(controller),
-		new StripePattern(controller),
-		new StripePattern(controller),
-		new StripePattern(controller)
+		new RainbowPattern(controller),
+		new ThrobbingPattern(controller)
 	};
 	
 	@Override

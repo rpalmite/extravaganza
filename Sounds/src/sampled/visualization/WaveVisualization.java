@@ -1,6 +1,6 @@
 package sampled.visualization;
 
-import ddf.minim.*;
+//import ddf.minim.*;
 
 public class WaveVisualization {
 	// ////////////////////////////////////////////////////////////
@@ -14,7 +14,7 @@ public class WaveVisualization {
 	// http://code.compartmental.net/tools/minim/
 	// //
 	// ////////////////////////////////////////////////////////////
-
+/*
 	Minim minim;
 
 	AudioPlayer groove;
@@ -62,5 +62,5 @@ public class WaveVisualization {
 		minim.stop();
 		super.stop();
 	}
-
+*/
 }

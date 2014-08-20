@@ -1,10 +1,10 @@
-import java.util.ArrayList;
-import java.awt.*;
-import javax.swing.*;
-import wiiremotej.*;
-import wiiremotej.event.*;
-import javax.sound.sampled.*;
-import java.io.*;
+//import java.util.ArrayList;
+//import java.awt.*;
+//import javax.swing.*;
+//import wiiremotej.*;
+//import wiiremotej.event.*;
+//import javax.sound.sampled.*;
+//import java.io.*;
 
 /**
  * Implements WiiRemoteListener and acts as a general test class. Note that you can ignore the main method pretty much, as it mostly has to do with the graphs and GUIs.
@@ -12,6 +12,8 @@ import java.io.*;
  * @author Michael Diamond
  * @version 1/05/07
  */
+
+/*
 
 public class WRLImpl extends WiiRemoteAdapter
 {
@@ -180,14 +182,14 @@ public class WRLImpl extends WiiRemoteAdapter
     
     public void IRInputReceived(WRIREvent evt)
     {
-        /*for (IRLight light : evt.getIRLights())
-        {
-            if (light != null)
-            {
-                System.out.println("X: "+light.getX());
-                System.out.println("Y: "+light.getY());
-            }
-        }*/
+//        for (IRLight light : evt.getIRLights())
+//        {
+//            if (light != null)
+//            {
+//                System.out.println("X: "+light.getX());
+//                System.out.println("Y: "+light.getY());
+//            }
+//        }
         
     }
     
@@ -210,11 +212,10 @@ public class WRLImpl extends WiiRemoteAdapter
             graph.repaint();
         }
         
-        /*System.out.println("---Acceleration Data---");
+        System.out.println("---Acceleration Data---");
         System.out.println("X: " + evt.getXAcceleration());
         System.out.println("Y: " + evt.getYAcceleration());
         System.out.println("Z: " + evt.getZAcceleration());
-        */
     }
     
     public void extensionInputReceived(WRExtensionEvent evt)
@@ -340,7 +341,7 @@ public class WRLImpl extends WiiRemoteAdapter
     
     public void buttonInputReceived(WRButtonEvent evt)
     {
-        /*
+        
         if (evt.wasPressed(WRButtonEvent.TWO))System.out.println("2");
         if (evt.wasPressed(WRButtonEvent.ONE))System.out.println("1");
         if (evt.wasPressed(WRButtonEvent.B))System.out.println("B");
@@ -352,7 +353,7 @@ public class WRLImpl extends WiiRemoteAdapter
         if (evt.wasPressed(WRButtonEvent.DOWN))System.out.println("Down");
         if (evt.wasPressed(WRButtonEvent.UP))System.out.println("Up");
         if (evt.wasPressed(WRButtonEvent.PLUS))System.out.println("Plus");
-        /**/
+        
         
         try
         {
@@ -425,7 +426,6 @@ public class WRLImpl extends WiiRemoteAdapter
                                 //byte[] address = new byte[]{0x00, 0x17, (byte)0xAB};
                                 //byte[] address = new byte[]{0x0F, 0x04, 0x00, 0x01, 0x01, 0x04};
                                 
-                                /**/
                                 byte[] data = remote.readData(new byte[]{0x00, 0x00, 0x00, 0x00}, 0x0040);
                                 System.out.println("Read complete (data)");
                                 if (!dataF.exists())
@@ -444,7 +444,6 @@ public class WRLImpl extends WiiRemoteAdapter
                                     }
                                     System.out.println("Comparing complete");
                                 }
-                                /**/
                                 
                                 
                                 /*
@@ -466,7 +465,6 @@ public class WRLImpl extends WiiRemoteAdapter
                                     }
                                     System.out.println("Comparing complete");
                                 }
-                                /**/
                                 
                                 System.out.println("Search complete.");
                             }
@@ -552,3 +550,5 @@ public class WRLImpl extends WiiRemoteAdapter
     
     
 }
+
+*/

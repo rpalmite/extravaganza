@@ -1,17 +1,17 @@
 import java.io.IOException;
 import java.util.Enumeration;
 import java.util.Vector;
-import javax.bluetooth.*;
+//import javax.bluetooth.*;
 
 /**
  *
  * Minimal Services Search example.
- */
+
 public class ServicesSearch {
 
     static final UUID OBEX_FILE_TRANSFER = new UUID(0x1106);
 
-    public static final Vector/*<String>*/ serviceFound = new Vector();
+    public static final Vector<String> serviceFound = new Vector();
 
     public static void main(String[] args) throws IOException, InterruptedException {
 
@@ -78,3 +78,5 @@ public class ServicesSearch {
     }
 
 }
+
+*/

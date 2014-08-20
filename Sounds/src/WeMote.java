@@ -1,5 +1,6 @@
 import java.io.IOException;
 
+/*
 import wiiremotej.ButtonMap;
 import wiiremotej.WiiRemote;
 import wiiremotej.WiiRemoteJ;
@@ -83,3 +84,4 @@ public class WeMote extends WiiRemoteAdapter {
 	}
 
 }
+*/
