@@ -1,0 +1,15 @@
+1408496592121	Rename method 'nextColor'
+1408518362882	Copy compilation unit
+1408519074053	Rename local variable 'd'
+1408519220884	Rename field 'delay'
+1408521878181	Extract constant 'MAX_DELAY_MS'
+1408521895872	Extract constant 'MIN_DELAY_MS'
+1408521923184	Extract constant 'DELAY_INCREMENT_MS'
+1408523797109	Rename type 'RedGreenBlue'
+1408524076263	Rename type 'RGB'
+1408524269332	Extract local variable 'currentStrip'
+1408526290989	Rename type 'PlayMidi'
+1408526993842	Move 1 resources to 'midis'
+1408529948039	Copy compilation unit
+1408531376518	Copy compilation unit
+1408532519712	Extract local variable 'MAX_COLOR_SATURATION'
