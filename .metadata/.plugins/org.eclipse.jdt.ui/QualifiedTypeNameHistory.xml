@@ -27,4 +27,6 @@
 <fullyQualifiedTypeName name="extravaganza.midi.NoteReceiver"/>
 <fullyQualifiedTypeName name="extravaganza.midi.LedNoteReceiver"/>
 <fullyQualifiedTypeName name="extravaganza.led.LedController"/>
+<fullyQualifiedTypeName name="extravaganza.led.pattern.RainbowPattern"/>
+<fullyQualifiedTypeName name="extravaganza.led.pattern.ThrobbingPattern"/>
 </qualifiedTypeNameHistroy>

@@ -25,13 +25,106 @@
 					<target>1.6</target>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.1.1</version>
+				<executions>
+					<execution>
+						<phase>test</phase>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>extravaganza.controls.Menu</mainClass>
+							<arguments>
+								<argument>testarg</argument>
+								<argument>test2arg</argument>
+							</arguments>
+							<classpathScope>test</classpathScope>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
 	<dependencies>
+		<!--
 		<dependency>
 			<groupId>net.sf.sociaal</groupId>
 			<artifactId>freetts</artifactId>
 			<version>1.2.2</version>
+		</dependency>
+		-->
+		<dependency>
+			<groupId>net.sf.sociaal</groupId>
+			<artifactId>freetts</artifactId>
+			<version>1.2.2</version>
+			<systemPath>${project.basedir}/lib/freetts/cmu_time_awb.jar</systemPath>
+			<scope>system</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.sociaal</groupId>
+			<artifactId>freetts</artifactId>
+			<version>1.2.2</version>
+			<systemPath>${project.basedir}/lib/freetts/cmu_us_kal.jar</systemPath>
+			<scope>system</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.sociaal</groupId>
+			<artifactId>freetts</artifactId>
+			<version>1.2.2</version>
+			<systemPath>${project.basedir}/lib/freetts/cmudict04.jar</systemPath>
+			<scope>system</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.sociaal</groupId>
+			<artifactId>freetts</artifactId>
+			<version>1.2.2</version>
+			<systemPath>${project.basedir}/lib/freetts/cmulex.jar</systemPath>
+			<scope>system</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.sociaal</groupId>
+			<artifactId>freetts</artifactId>
+			<version>1.2.2</version>
+			<systemPath>${project.basedir}/lib/freetts/cmutimelex.jar</systemPath>
+			<scope>system</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.sociaal</groupId>
+			<artifactId>freetts</artifactId>
+			<version>1.2.2</version>
+			<systemPath>${project.basedir}/lib/freetts/en_us.jar</systemPath>
+			<scope>system</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.sociaal</groupId>
+			<artifactId>freetts</artifactId>
+			<version>1.2.2</version>
+			<systemPath>${project.basedir}/lib/freetts/freetts-jsapi10.jar</systemPath>
+			<scope>system</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.sociaal</groupId>
+			<artifactId>freetts</artifactId>
+			<version>1.2.2</version>
+			<systemPath>${project.basedir}/lib/freetts/freetts.jar</systemPath>
+			<scope>system</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.sociaal</groupId>
+			<artifactId>freetts</artifactId>
+			<version>1.2.2</version>
+			<systemPath>${project.basedir}/lib/freetts/jsapi.jar</systemPath>
+			<scope>system</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.sociaal</groupId>
+			<artifactId>freetts</artifactId>
+			<version>1.2.2</version>
+			<systemPath>${project.basedir}/lib/freetts/mbrola.jar</systemPath>
+			<scope>system</scope>
 		</dependency>
 	</dependencies>
 </project>
