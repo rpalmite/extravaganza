@@ -32,6 +32,7 @@ public class Speech {
 	}
 
 	public static void speakError(Exception e) {
+		e.printStackTrace();
 		Speech.speak(e.getMessage());
 	}
 }
