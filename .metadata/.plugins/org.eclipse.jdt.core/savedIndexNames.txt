@@ -23,7 +23,6 @@ INDEX VERSION 1.126+/Users/russell/Documents/workspaces/sound/.metadata/.plugins
 1453214724.index
 3004609673.index
 156905802.index
-3822335087.index
 4238209716.index
 3302703152.index
 1817355401.index

@@ -1,6 +1,7 @@
 package extravaganza.led;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import com.pi4j.wiringpi.SoftPwm;
 
@@ -53,7 +54,10 @@ public class PiBlaster {
 			if (output.equals("pi4j")) {
 				SoftPwm.softPwmWrite(pin, value);
 			} else if (output.equals("pi-blaster")) {
-				Process tr = Runtime.getRuntime().exec( new String[] { "echo", pin+"="+value, ">", "/dev/pi-blaster" } );
+				PrintWriter writer = new PrintWriter("/dev/pi-blaster", "UTF-8");
+				writer.println(pin+"="+value);
+				writer.close();
+				//Process tr = Runtime.getRuntime().exec( new String[] { "echo", pin+"="+value, ">", "/dev/pi-blaster" } );
 			} else if (output.equals("console")) {
 				System.out.println(pin+"="+value);
 			} else {
