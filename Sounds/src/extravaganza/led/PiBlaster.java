@@ -55,7 +55,7 @@ public class PiBlaster {
 			} else if (output.equals("pi-blaster")) {
 				Process tr = Runtime.getRuntime().exec( new String[] { "echo", pin+"="+value, ">", "/dev/pi-blaster" } );
 			} else if (output.equals("console")) {
-				System.out.println("echo " + pin+"="+value);
+				System.out.println(pin+"="+value);
 			} else {
 				System.out.println("missing output");
 			}

@@ -10,7 +10,7 @@ public class ManualMode implements Mode {
 	@Override
 	public boolean setOption(char option, int value) {
 		if (option == 's') {
-			if (value >= 1 && value <= 5) {
+			if (value >= 0 && value < 5) {
 				currentStrip = ledController.getStrip(value);
 			} else {
 				return false;

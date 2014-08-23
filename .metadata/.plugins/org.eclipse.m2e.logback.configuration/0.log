@@ -4540,3 +4540,23 @@ java.lang.NullPointerException: null
 2014-08-22 18:30:23,592 [Worker-353] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
 2014-08-22 18:30:23,594 [Worker-353] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
 2014-08-22 18:30:23,595 [Worker-353] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/russell/Documents/workspaces/sound/Sounds/src/test/resources
+2014-08-22 18:43:22,838 [Worker-373] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-22 18:43:22,841 [Worker-373] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-22 18:43:22,843 [Worker-373] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-22 18:43:22,844 [Worker-373] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/russell/Documents/workspaces/sound/Sounds/src/test/resources
+2014-08-22 18:43:23,917 [Worker-374] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-22 18:43:23,920 [Worker-374] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-22 18:43:23,923 [Worker-374] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-22 18:43:23,924 [Worker-374] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/russell/Documents/workspaces/sound/Sounds/src/test/resources
+2014-08-22 18:48:02,993 [Worker-374] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-22 18:48:02,996 [Worker-374] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-22 18:48:02,998 [Worker-374] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-22 18:48:02,998 [Worker-374] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/russell/Documents/workspaces/sound/Sounds/src/test/resources
+2014-08-22 18:48:04,016 [Worker-377] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-22 18:48:04,019 [Worker-377] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-22 18:48:04,021 [Worker-377] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-22 18:48:04,021 [Worker-377] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/russell/Documents/workspaces/sound/Sounds/src/test/resources
+2014-08-22 18:48:08,447 [Worker-380] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-22 18:48:08,450 [Worker-380] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-22 18:48:08,451 [Worker-380] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-22 18:48:08,452 [Worker-380] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/russell/Documents/workspaces/sound/Sounds/src/test/resources
