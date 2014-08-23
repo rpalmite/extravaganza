@@ -4640,3 +4640,12 @@ java.lang.NullPointerException: null
 2014-08-22 19:11:11,372 [Worker-396] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
 2014-08-22 19:11:11,374 [Worker-396] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
 2014-08-22 19:11:11,374 [Worker-396] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/russell/Documents/workspaces/sound/Sounds/src/test/resources
+2014-08-22 19:17:34,210 [Worker-397] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: light-extravaganza:light-extravaganza:0.0.1-SNAPSHOT @ /Users/russell/Documents/workspaces/sound/Sounds/pom.xml.
+2014-08-22 19:17:34,311 [Worker-397] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-22 19:17:34,312 [Worker-397] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-08-22 19:17:34,314 [Worker-397] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-22 19:17:34,314 [Worker-397] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/russell/Documents/workspaces/sound/Sounds/src/test/resources
+2014-08-22 19:18:59,707 [Worker-403] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-22 19:18:59,710 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-08-22 19:18:59,712 [Worker-403] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-22 19:18:59,713 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/russell/Documents/workspaces/sound/Sounds/src/test/resources

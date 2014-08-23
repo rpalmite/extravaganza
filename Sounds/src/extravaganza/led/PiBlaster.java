@@ -67,7 +67,9 @@ public class PiBlaster {
 				SoftPwm.softPwmWrite(pin, value);
 			} else if (output.equals("pi-blaster")) {
 				Double valueAsDouble = Double.valueOf((double)value/100);
-				writer.println(pin+"="+String.valueOf(valueAsDouble));
+				String piBlasterString = pin+"="+String.valueOf(valueAsDouble);
+				writer.println(piBlasterString);
+				System.out.println(piBlasterString);
 				//Process tr = Runtime.getRuntime().exec( new String[] { "echo", pin+"="+value, ">", "/dev/pi-blaster" } );
 			} else if (output.equals("console")) {
 				System.out.println(pin+"="+value);
