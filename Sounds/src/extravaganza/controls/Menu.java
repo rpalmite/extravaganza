@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import extravaganza.led.LedController;
+import extravaganza.led.PiBlaster;
+import extravaganza.sound.PlaySound;
 import extravaganza.speech.Speech;
 
 // 0 = help
@@ -31,9 +33,13 @@ public class Menu {
 	private Mode currentMode = new HelpMode();
 	
 	public static void main(String[] args) {
+		if (args.length > 0) {
+			PiBlaster.setOutput(args[0]);
+		}
+		
 		Menu m = new Menu();
-		m.output("Music. Lights. Extravaganza.");
-		System.out.println("(0 for help)");
+		m.output("Music. Lights. Extravagannzaah.  .");
+		PlaySound.playSound("src/lion.wav");
 		m.takeInput();
 	}
 
