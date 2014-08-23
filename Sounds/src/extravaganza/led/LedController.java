@@ -10,7 +10,7 @@ public class LedController {
 	
 	static {
 		// GPIO pin mapping B+
-		strips.add(new LedStrip(11, 9, 10)); // 0
+		strips.add(new LedStrip(25, 24, 23)); // 0
 		strips.add(new LedStrip(17, 27, 22)); // 1
 		strips.add(new LedStrip(10, 9, 11)); // 2
 		strips.add(new LedStrip(5, 6, 13)); // 3
@@ -22,9 +22,8 @@ public class LedController {
 	}
 
 	public void blink() {
-		System.out.println("*** blink ****");
+		//System.out.println("*** blink ****");
 		for (LedStrip strip : strips) {
-			
 			strip.setColor(Color.create(0, 0, 0));
 		}
 	}
