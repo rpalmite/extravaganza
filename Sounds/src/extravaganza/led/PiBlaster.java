@@ -1,7 +1,9 @@
 package extravaganza.led;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
 
 import com.pi4j.wiringpi.SoftPwm;
 
@@ -9,8 +11,18 @@ import extravaganza.speech.Speech;
 
 public class PiBlaster {
 	
-	private static String output = "console";
-	
+	private static String output = "console";				
+	private static PrintWriter writer;
+
+	static {
+		try {
+			writer = new PrintWriter("/dev/pi-blaster", "UTF-8");
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
+	}
 	public static void setOutput(String output) {
 		PiBlaster.output = output;
 		if (output.equals("pi4j")) {
@@ -54,9 +66,8 @@ public class PiBlaster {
 			if (output.equals("pi4j")) {
 				SoftPwm.softPwmWrite(pin, value);
 			} else if (output.equals("pi-blaster")) {
-				PrintWriter writer = new PrintWriter("/dev/pi-blaster", "UTF-8");
-				writer.println(pin+"="+value);
-				writer.close();
+				Double valueAsDouble = Double.valueOf((double)value/100);
+				writer.println(pin+"="+String.valueOf(valueAsDouble));
 				//Process tr = Runtime.getRuntime().exec( new String[] { "echo", pin+"="+value, ">", "/dev/pi-blaster" } );
 			} else if (output.equals("console")) {
 				System.out.println(pin+"="+value);
@@ -71,11 +82,17 @@ public class PiBlaster {
 //			wr.flush();
 //			String s = rd.readLine();
 //			System.out.println( s );
-		} catch (IOException e) {
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
+	}
+
+	@Override
+	protected void finalize() throws Throwable {
+		super.finalize();
+		writer.close();
 	}
 
 	
