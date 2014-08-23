@@ -33,8 +33,10 @@ public class PiBlaster {
 			SoftPwm.softPwmCreate(1, 0, 100);
 		} else if (output.equals("pi-blaster")) {
 			try {
+				String current = new java.io.File( "." ).getCanonicalPath();
+				System.out.println("looking for pi-blaster in " + current);
 				Process tr = Runtime.getRuntime().exec(
-						new String[] { "pi-blaster" });
+						new String[] { "sudo", "./pi-blaster" });
 			} catch (IOException e) {
 				Speech.speakError(e);
 			}

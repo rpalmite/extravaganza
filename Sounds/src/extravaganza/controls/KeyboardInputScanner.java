@@ -1,5 +1,8 @@
 package extravaganza.controls;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class KeyboardInputScanner {
@@ -43,4 +46,22 @@ public class KeyboardInputScanner {
 			return -1;
 		}
 	}
+	
+	
+//	public char readInput() {
+//		try {
+//			BufferedReader buffer = new BufferedReader(
+//			        new InputStreamReader(System.in));
+//			int c = 0;
+//			while((c = buffer.read()) != -1) {
+//				char character = (char) c;
+//
+//				System.out.println(character);
+//
+//			}
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//	}
 }

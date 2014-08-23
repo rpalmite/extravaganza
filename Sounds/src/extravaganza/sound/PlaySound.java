@@ -33,7 +33,8 @@ public class PlaySound {
 		        clip.open(inputStream);
 		        clip.start(); 
 		      } catch (Exception e) {
-		        System.err.println(e.getMessage());
+		    	  e.printStackTrace();
+		    	  System.err.println(e.getMessage());
 		      }
 		    }
 		  }).start();

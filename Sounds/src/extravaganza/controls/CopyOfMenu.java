@@ -19,7 +19,7 @@ import extravaganza.speech.Speech;
 
 // 4 = timer (every 100ms, 500ms, 3s, gets faster, gets slower, random)
 
-public class Menu {
+public class CopyOfMenu {
 	
 	private Mode[] modes = new Mode[] {
 		new HelpMode(),
@@ -47,7 +47,7 @@ public class Menu {
 			PiBlaster.setOutput(args[0]);
 		}
 		
-		Menu m = new Menu();
+		CopyOfMenu m = new CopyOfMenu();
 		m.output("Music. Lights. Extravagannzaah.  .");
 		PlaySound.playSound("src/lion.wav");
 		m.takeInput();
