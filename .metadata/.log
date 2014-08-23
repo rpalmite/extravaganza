@@ -8119,3 +8119,33 @@ java.lang.IllegalArgumentException: can not calculate a model ID without a docum
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-22 19:18:59.712
 !MESSAGE Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-22 19:33:51.997
+!MESSAGE Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-22 19:33:52.002
+!MESSAGE Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-22 19:34:38.759
+!MESSAGE Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-22 19:34:38.765
+!MESSAGE Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-22 19:36:24.308
+!MESSAGE Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-22 19:36:24.314
+!MESSAGE Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-22 19:36:41.411
+!MESSAGE Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-22 19:36:41.415
+!MESSAGE Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-22 19:40:55.763
+!MESSAGE Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-22 19:40:55.770
+!MESSAGE Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
