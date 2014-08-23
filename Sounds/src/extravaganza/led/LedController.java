@@ -3,6 +3,8 @@ package extravaganza.led;
 import java.util.ArrayList;
 import java.util.List;
 
+import extravaganza.speech.Speech;
+
 // TODO new name??? LedStripSet???
 public class LedController {
 	private static LedController singleton = new LedController();
@@ -22,9 +24,15 @@ public class LedController {
 	}
 
 	public void blink() {
-		//System.out.println("*** blink ****");
 		for (LedStrip strip : strips) {
+			Color old = strip.getColor();
 			strip.setColor(Color.create(0, 0, 0));
+			try {
+				Thread.sleep(10);
+			} catch (InterruptedException e) {
+				Speech.speakError(e);
+			}
+			strip.setColor(old);
 		}
 	}
 	

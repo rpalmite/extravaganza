@@ -21,7 +21,6 @@
 <fullyQualifiedTypeName name="extravaganza.led.LedStrip"/>
 <fullyQualifiedTypeName name="extravaganza.led.pattern.StripePattern"/>
 <fullyQualifiedTypeName name="extravaganza.led.RGB"/>
-<fullyQualifiedTypeName name="extravaganza.speech.Speech"/>
 <fullyQualifiedTypeName name="extravaganza.midi.SysOutNoteReceiver"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="extravaganza.midi.NoteReceiver"/>
@@ -29,4 +28,14 @@
 <fullyQualifiedTypeName name="extravaganza.led.LedController"/>
 <fullyQualifiedTypeName name="extravaganza.led.pattern.RainbowPattern"/>
 <fullyQualifiedTypeName name="extravaganza.led.pattern.ThrobbingPattern"/>
+<fullyQualifiedTypeName name="com.pi4j.wiringpi.SoftPwm"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="extravaganza.led.PiBlaster"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="extravaganza.controls.KeyboardInputScanner.Option"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="extravaganza.controls.MenuSelection.Letter"/>
+<fullyQualifiedTypeName name="extravaganza.controls.MenuSelection.Option"/>
+<fullyQualifiedTypeName name="extravaganza.speech.Speech"/>
 </qualifiedTypeNameHistroy>

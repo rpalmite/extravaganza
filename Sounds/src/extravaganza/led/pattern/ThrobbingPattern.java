@@ -8,10 +8,10 @@ import extravaganza.led.SequencedLedPattern;
 public class ThrobbingPattern extends SequencedLedPattern {
 	private Color[] colors = new Color[] {
 		Color.red(),
-		Color.black(),
-		Color.blue(),
 		Color.green(),
-		Color.create(25, 15, 35)
+		Color.blue(),
+		Color.create(25, 0, 25),
+		Color.create(0, 25, 25)
 	};
 	
 	private boolean makeLighter = false;

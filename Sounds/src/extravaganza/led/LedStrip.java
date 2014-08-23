@@ -41,4 +41,8 @@ public class LedStrip {
 		this.blue = blue;
 		PiBlaster.set(this.blueGpioPin, blue);
 	}
+	
+	public Color getColor() {
+		return Color.create(red, green, blue);
+	}
 }

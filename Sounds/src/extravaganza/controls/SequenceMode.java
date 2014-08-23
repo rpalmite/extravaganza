@@ -6,6 +6,7 @@ import extravaganza.led.pattern.RainbowPattern;
 import extravaganza.led.pattern.StripePattern;
 import extravaganza.led.pattern.ThrobbingPattern;
 
+// Pattern Mode???
 public class SequenceMode implements Mode {
 	private static final int DELAY_INCREMENT_MS = 100;
 	private static final int MIN_DELAY_MS = 0;
@@ -24,7 +25,7 @@ public class SequenceMode implements Mode {
 	public boolean setOption(char option, int value) {
 		if (option == 'p') {
 			// control a thread
-			if (value > 0 && value < patterns.length) {
+			if (value >= 0 && value < patterns.length) {
 				LedPattern pattern = patterns[value];
 				this.currentPattern.setPattern(pattern);
 			} else {

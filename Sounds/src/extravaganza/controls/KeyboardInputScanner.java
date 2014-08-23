@@ -5,6 +5,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
+import extravaganza.controls.MenuSelection.Letter;
+import extravaganza.controls.MenuSelection.Option;
+
 public class KeyboardInputScanner {
 	private Scanner scanner = new Scanner(System.in);
 	
@@ -48,10 +51,30 @@ public class KeyboardInputScanner {
 	}
 	
 	
-//	public char readInput() {
-//		try {
-//			BufferedReader buffer = new BufferedReader(
-//			        new InputStreamReader(System.in));
+	/*
+	//private BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
+	
+	public MenuSelection readInput() {
+		try {
+			int c = buffer.read();
+			Character character = (char) c;
+			Option o = MenuSelection.Option.COLOR;
+			
+			
+//			if (character.equals('1')) {
+//				//o =  MenuSelection.Option.COLOR;
+//			} else (character.equals('2')) {
+//				//o = Option.PATTERN;
+//			} else (character.equals('3')) {
+//				//o = Option.TIMING;
+//			}
+			String optionStr = String.valueOf(character);
+			
+			int c2 = buffer.read();
+			char character2 = (char) c;
+			String letterStr = String.valueOf(character);
+			Letter l = MenuSelection.Letter.valueOf(letterStr);
+			
 //			int c = 0;
 //			while((c = buffer.read()) != -1) {
 //				char character = (char) c;
@@ -59,9 +82,10 @@ public class KeyboardInputScanner {
 //				System.out.println(character);
 //
 //			}
-//		} catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//	}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	*/
 }
