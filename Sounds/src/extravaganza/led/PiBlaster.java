@@ -83,7 +83,7 @@ public class PiBlaster {
 				System.err.println("unable to write to /dev/pi-blaster");
 				e.printStackTrace();
 			}
-			System.out.println(piBlasterString);
+			//System.out.println(piBlasterString);
 			// Process tr = Runtime.getRuntime().exec( new String[] { "echo",
 			// pin+"="+value, ">", "/dev/pi-blaster" } );
 		} else if (output.equals("console")) {
